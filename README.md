@@ -12,7 +12,8 @@ trained RoBERTa language model for hatefulmeme classification.
 ## Run HateDetector
 Our code is built on [transformers](https://github.com/huggingface/transformers) and we use its version `4.35.0` version for pre-trained models such as Roberta and SqueezeBert. We also used PyTorch on an NVIDIA Tesla T4 GPU with 15 GB dedicated memory and CUDA 12.0 to train all the models. It takes up 15 GB dedicated memory for PromptHate training on FHM Dataset. 
 
-To run use python main.py --SAVE_NUM 821 --SEED 1111 --LR_RATE 1.3e-5 and change it's arguments accordingly.
+To run use 
+python main.py --SAVE_NUM 821 --SEED 1111 --LR_RATE 1.3e-5 and change it's arguments accordingly.
 
 
 
